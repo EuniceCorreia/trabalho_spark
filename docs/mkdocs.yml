@@ -1,0 +1,8 @@
+site_name: Projeto Spark - Delta Lake e Iceberg
+theme: material
+nav:
+  - Home: index.md
+  - Delta Lake: delta.md
+  - Iceberg: iceberg.md
+plugins:
+  - search

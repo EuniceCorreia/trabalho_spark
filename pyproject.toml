@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "trabalho-spark"
+version = "0.1.0"
+description = "Trabalho Apache Spark com Delta Lake e Iceberg"
+authors = [
+    "Eunice Correia",
+    "Maria Laura",
+    "Vitoria Viana"
+]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"  # Ajustado para sua versão (3.12+)
+pyspark = "^3.5.0"
+delta-spark = "^3.2.0"
+jupyterlab = "^4.0.0"
+pandas = "^2.1.0"
+matplotlib = "^3.8.0"
+mkdocs = "^1.5.0"
+mkdocs-material = "^9.5.0"
+openpyxl = "^3.1.5"
+networkx = "^3.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.0.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

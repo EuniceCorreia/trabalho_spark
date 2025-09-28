@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Data (não commit datasets)
+data/raw/
+
+# OS
+.DS_Store
