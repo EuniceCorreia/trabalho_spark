@@ -14,3 +14,45 @@ O projeto inclui:
 - Maria Laura
 - Vitoria Viana
 
+
+## Tecnologias utilizadas  
+- Python (PySpark)  
+- Apache Spark  
+- Delta Lake  
+- Apache Iceberg  
+- Jupyter Notebook  
+- MkDocs  
+- Matplotlib / NetworkX (visualização e diagrama ER)
+
+---
+
+## Requisitos  
+
+Antes de rodar o projeto, verifique se de que:  
+- Possui **Python** instalado.  
+- **Apache Spark** está configurado com suporte a Delta Lake e Iceberg.  
+- As dependências estão instaladas via Poetry ou pip.  
+
+### Instalação das dependências  
+```bash
+poetry install
+# ou
+pip install -r requirements.txt
+
+---
+
+### Como executar: 
+git clone https://github.com/EuniceCorreia/trabalho_spark.git
+cd trabalho_spark
+
+(Opcional) Gere a documentação localmente com MkDocs:
+mkdocs serve
+
+### Exemplo de operações
+O projeto cobre operações comuns em Delta Lake e Iceberg:
+INSERT
+UPDATE
+DELETE
+MERGE (fusões condicionais)
+Time travel (consulta a versões anteriores)
+Particionamento e otimização de consultas
