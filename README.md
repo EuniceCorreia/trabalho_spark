@@ -46,8 +46,12 @@ pip install -r requirements.txt
 git clone https://github.com/EuniceCorreia/trabalho_spark.git
 cd trabalho_spark
 
+---
+
 (Opcional) Gere a documentação localmente com MkDocs:
 mkdocs serve
+
+---
 
 ### Exemplo de operações
 
