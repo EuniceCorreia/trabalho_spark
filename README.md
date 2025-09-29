@@ -41,7 +41,8 @@ pip install -r requirements.txt
 
 ---
 
-### Como executar: 
+### Como executar:
+
 git clone https://github.com/EuniceCorreia/trabalho_spark.git
 cd trabalho_spark
 
@@ -49,6 +50,7 @@ cd trabalho_spark
 mkdocs serve
 
 ### Exemplo de operações
+
 O projeto cobre operações comuns em Delta Lake e Iceberg:
 INSERT
 UPDATE
