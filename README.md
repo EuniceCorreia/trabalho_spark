@@ -37,7 +37,7 @@ Antes de rodar o projeto, verifique se de que:
 ```bash
 poetry install
 # ou
-pip install -r requirements.txt
+pyenv install -r requirements.txt
 
 ---
 
