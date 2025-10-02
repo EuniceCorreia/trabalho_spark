@@ -7,7 +7,6 @@ O projeto inclui:
 - Scripts PySpark para criar e manipular tabelas Delta e Iceberg.
 - Notebook Jupyter com análise de dados reais (leitura de Parquet, particionamento, time travel).
 - Documentação gerada com MkDocs (exemplos de INSERT, UPDATE, DELETE, MERGE).
-- Diagrama ER do cenário (usando Matplotlib/NetworkX).
 
 ## Participantes
 - Eunice Correia
@@ -22,7 +21,6 @@ O projeto inclui:
 - Apache Iceberg  
 - Jupyter Notebook  
 - MkDocs  
-- Matplotlib / NetworkX (visualização e diagrama ER)
 
 ---
 
