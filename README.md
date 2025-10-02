@@ -5,7 +5,7 @@ Trabalho sobre o uso do Apache Spark para processamento de dados em larga escala
 
 O projeto inclui:
 - Scripts PySpark para criar e manipular tabelas Delta e Iceberg.
-- Notebook Jupyter com análise de dados reais (leitura de Parquet, particionamento, time travel).
+- Notebook Jupyter com análise de dados reais sobre o Indice de progresso social (leitura de Parquet, particionamento, time travel).
 - Documentação gerada com MkDocs (exemplos de INSERT, UPDATE, DELETE, MERGE).
 
 ## Participantes
